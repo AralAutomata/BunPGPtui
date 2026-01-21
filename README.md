@@ -1,5 +1,7 @@
 # TUI PGP Tool
 
+![PrettyGood TUI](prettygoodtui.png)
+
 A Terminal User Interface (TUI) for OpenPGP encryption, signing, and local key management, built with TypeScript and Bun.
 
 This is an interactive, prompt-driven app (not a traditional flags-only CLI). It stores keys and encrypted “notes” on disk under your user config directory and uses `openpgp` (OpenPGP.js) for all cryptography.
